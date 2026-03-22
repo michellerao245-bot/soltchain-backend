@@ -1,0 +1,60 @@
+/* 🔗 Navigation Buttons Section */
+.top-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* 💠 Style for Links as Buttons */
+.btn {
+  text-decoration: none;
+  background: #3b82f6; /* Blue Color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* 🗺️ Roadmap Section */
+.roadmap {
+  margin: 50px auto;
+  max-width: 600px;
+  background: rgba(30, 41, 59, 0.7);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  text-align: left;
+}
+
+.roadmap h2 {
+  text-align: center;
+  color: #22c55e;
+}
+
+.roadmap ul {
+  list-style: none;
+  padding: 0;
+}
+
+.roadmap li {
+  padding: 10px 0;
+  border-bottom: 1px solid #334155;
+}
+
+.roadmap li:last-child {
+  border-bottom: none;
+}
+
+.roadmap li strong {
+  color: #fbbf24; /* Gold Color for Phases */
+}
